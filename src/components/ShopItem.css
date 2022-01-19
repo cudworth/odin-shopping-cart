@@ -1,0 +1,15 @@
+.ShopItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.shop-item-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.ShopItem img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
