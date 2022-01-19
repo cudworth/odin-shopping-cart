@@ -1,0 +1,6 @@
+.Nav {
+  border: 2px solid magenta;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
