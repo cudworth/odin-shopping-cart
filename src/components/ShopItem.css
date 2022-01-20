@@ -1,6 +1,7 @@
 .ShopItem {
   display: flex;
   flex-direction: row;
+  padding: 12px;
 }
 
 .shop-item-text {
@@ -8,8 +9,13 @@
   flex-direction: column;
 }
 
+.shop-item-text div {
+  padding: 8px;
+}
+
 .ShopItem img {
-  width: 300px;
-  height: 200px;
+  width: 40vw;
+  height: 30vw;
   object-fit: cover;
+  border: 1px solid black;
 }

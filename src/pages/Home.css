@@ -1,3 +1,40 @@
 .Home {
-  border: 4px solid red;
+  padding: 18px;
+  flex-grow: 1;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 80px;
+  border-radius: 8px;
+  width: min-content;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  width: 420px;
+  max-width: 50%;
+}
+
+.Home img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.Home p {
+  padding: 4px;
 }
