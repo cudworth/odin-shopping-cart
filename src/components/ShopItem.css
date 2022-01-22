@@ -1,12 +1,16 @@
 .ShopItem {
   display: flex;
   flex-direction: row;
-  padding: 12px;
+  padding: 24px;
+  margin: 12px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 .shop-item-text {
   display: flex;
   flex-direction: column;
+  padding-inline-start: 24px;
 }
 
 .shop-item-text div {

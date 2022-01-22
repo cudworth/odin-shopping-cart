@@ -1,5 +1,4 @@
 import "./ShopItem.css";
-import { Link } from "react-router-dom";
 
 function ShopItem(props) {
   const { name, price, description, src } = props.item;
@@ -16,8 +15,8 @@ function ShopItem(props) {
         <div>
           <hr />
         </div>
-        <div>{`Asking price: $${price}`}</div>
-        <div>{`Description provided: ${description}`}</div>
+        <div>{`Asking price:   $${price}`}</div>
+        <div>{`Description provided:   ${description}`}</div>
         <div>
           <button onClick={() => addToCart(uid)}>Add to Cart</button>
         </div>
