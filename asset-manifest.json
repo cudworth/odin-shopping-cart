@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/odin-shopping-cart/static/css/main.e0f7d902.css",
-    "main.js": "/odin-shopping-cart/static/js/main.3820a799.js",
+    "main.js": "/odin-shopping-cart/static/js/main.602cba8b.js",
     "static/js/787.d7bde7a7.chunk.js": "/odin-shopping-cart/static/js/787.d7bde7a7.chunk.js",
+    "static/media/barn-g831bace64_1280.jpg": "/odin-shopping-cart/static/media/barn-g831bace64_1280.7eec01a570e7e48d098b.jpg",
+    "static/media/house-gef02a836b_1280.jpg": "/odin-shopping-cart/static/media/house-gef02a836b_1280.3dfe7870041d4b246c21.jpg",
+    "static/media/alley-gf43a0e48d_1280.jpg": "/odin-shopping-cart/static/media/alley-gf43a0e48d_1280.0ce68f4b37c35e2536cb.jpg",
+    "static/media/house-g81243becb_1280.jpg": "/odin-shopping-cart/static/media/house-g81243becb_1280.3fe916171deadc316be2.jpg",
+    "static/media/mountains-g3d72add6b_1280.jpg": "/odin-shopping-cart/static/media/mountains-g3d72add6b_1280.15f0f9d498e086453616.jpg",
+    "static/media/villa-g1a20a9a65_1280.jpg": "/odin-shopping-cart/static/media/villa-g1a20a9a65_1280.fb55a8b79952f9484ca7.jpg",
+    "static/media/lake-g1db1e76a8_1280.jpg": "/odin-shopping-cart/static/media/lake-g1db1e76a8_1280.40e7f828bf63256304bb.jpg",
+    "static/media/sydney-opera-house-g2d6dab75c_1280.jpg": "/odin-shopping-cart/static/media/sydney-opera-house-g2d6dab75c_1280.41d09f6c65fd28cd073c.jpg",
+    "static/media/house-gd581af691_1280.jpg": "/odin-shopping-cart/static/media/house-gd581af691_1280.438d56667258df663fd2.jpg",
+    "static/media/houseicon.png": "/odin-shopping-cart/static/media/houseicon.e7986671eba2712c3feb.png",
     "index.html": "/odin-shopping-cart/index.html",
     "main.e0f7d902.css.map": "/odin-shopping-cart/static/css/main.e0f7d902.css.map",
-    "main.3820a799.js.map": "/odin-shopping-cart/static/js/main.3820a799.js.map",
+    "main.602cba8b.js.map": "/odin-shopping-cart/static/js/main.602cba8b.js.map",
     "787.d7bde7a7.chunk.js.map": "/odin-shopping-cart/static/js/787.d7bde7a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0f7d902.css",
-    "static/js/main.3820a799.js"
+    "static/js/main.602cba8b.js"
   ]
 }
