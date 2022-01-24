@@ -1,3 +1,13 @@
+import i1 from "./assets/images/alley-gf43a0e48d_1280.jpg";
+import i2 from "./assets/images/barn-g831bace64_1280.jpg";
+import i3 from "./assets/images/house-g81243becb_1280.jpg";
+import i4 from "./assets/images/house-gd581af691_1280.jpg";
+import i5 from "./assets/images/house-gef02a836b_1280.jpg";
+import i6 from "./assets/images/lake-g1db1e76a8_1280.jpg";
+import i7 from "./assets/images/mountains-g3d72add6b_1280.jpg";
+import i8 from "./assets/images/sydney-opera-house-g2d6dab75c_1280.jpg";
+import i9 from "./assets/images/villa-g1a20a9a65_1280.jpg";
+
 function uniqueID(n) {
   const alpha = "abcdefghijklmnopqrstuvwxyz".split("");
   const arr = [];
@@ -22,55 +32,55 @@ const items = {};
   {
     name: "Alley House",
     price: randomVal(),
-    src: "images/alley-gf43a0e48d_1280.jpg",
+    src: i1,
     description: lorem(),
   },
   {
     name: "Ramshackle",
     price: randomVal(),
-    src: "images/barn-g831bace64_1280.jpg",
+    src: i2,
     description: lorem(),
   },
   {
     name: "Earthen Home",
     price: randomVal(),
-    src: "images/house-g81243becb_1280.jpg",
+    src: i3,
     description: lorem(),
   },
   {
     name: "Roblox",
     price: randomVal(),
-    src: "images/house-gd581af691_1280.jpg",
+    src: i4,
     description: lorem(),
   },
   {
     name: "Beach View Villa",
     price: randomVal(),
-    src: "images/house-gef02a836b_1280.jpg",
+    src: i5,
     description: lorem(),
   },
   {
     name: "Boat House",
     price: randomVal(),
-    src: "images/lake-g1db1e76a8_1280.jpg",
+    src: i6,
     description: lorem(),
   },
   {
     name: "Lake House",
     price: randomVal(),
-    src: "images/mountains-g3d72add6b_1280.jpg",
+    src: i7,
     description: lorem(),
   },
   {
     name: "Opera House",
     price: randomVal(),
-    src: "images/sydney-opera-house-g2d6dab75c_1280.jpg",
+    src: i8,
     description: lorem(),
   },
   {
     name: "Haunted House",
     price: randomVal(),
-    src: "images/villa-g1a20a9a65_1280.jpg",
+    src: i9,
     description: lorem(),
   },
 ].forEach((item) => {

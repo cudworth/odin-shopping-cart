@@ -7,9 +7,9 @@ function Nav(props) {
 
   return (
     <div className="Nav">
-      <Link to="/">TheHousingMarket</Link>
-      <Link to="/shop">Shop</Link>
-      <Link to="/cart">Cart ({itemQty})</Link>
+      <Link to="/odin-shopping-cart/">TheHousingMarket</Link>
+      <Link to="/odin-shopping-cart/shop">Shop</Link>
+      <Link to="/odin-shopping-cart/cart">Cart ({itemQty})</Link>
     </div>
   );
 }

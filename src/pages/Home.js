@@ -1,10 +1,11 @@
 import "./Home.css";
+import icon from "../assets/houseicon.png";
 
 function Home(props) {
   return (
     <div className="Home">
       <div className="home-card">
-        <img alt="TheHousingMarket Icon" src="./houseicon.png" />
+        <img alt="TheHousingMarket Icon" src={icon} />
         <div className="home-text">
           <p>
             <b>Welcome to TheHousingMarket.com!</b>

@@ -3,7 +3,6 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
-import Swatches from "./components/Swatches";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
@@ -38,16 +37,15 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Swatches />
         <Nav cartItems={cartItems} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/odin-shopping-cart" element={<Home />} />
           <Route
-            path="/shop"
+            path="/odin-shopping-cart/shop"
             element={<Shop items={items} addToCart={addToCart} />}
           />
           <Route
-            path="/cart"
+            path="/odin-shopping-cart/cart"
             element={
               <Cart
                 items={items}
